@@ -13,6 +13,8 @@
 		DEED38252A9150EA00EA563B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEED38232A9150EA00EA563B /* Main.storyboard */; };
 		DEED38272A9150EC00EA563B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEED38262A9150EC00EA563B /* Assets.xcassets */; };
 		DEED382A2A9150EC00EA563B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEED38282A9150EC00EA563B /* LaunchScreen.storyboard */; };
+		DEED38322A91557800EA563B /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED38312A91557800EA563B /* DetailsVC.swift */; };
+		DEED38342A91622600EA563B /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED38332A91622600EA563B /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DEED38262A9150EC00EA563B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEED38292A9150EC00EA563B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEED382B2A9150EC00EA563B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEED38312A91557800EA563B /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		DEED38332A91622600EA563B /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DEED38262A9150EC00EA563B /* Assets.xcassets */,
 				DEED38282A9150EC00EA563B /* LaunchScreen.storyboard */,
 				DEED382B2A9150EC00EA563B /* Info.plist */,
+				DEED38312A91557800EA563B /* DetailsVC.swift */,
+				DEED38332A91622600EA563B /* Simpson.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEED38222A9150EA00EA563B /* ViewController.swift in Sources */,
+				DEED38322A91557800EA563B /* DetailsVC.swift in Sources */,
 				DEED381E2A9150EA00EA563B /* AppDelegate.swift in Sources */,
 				DEED38202A9150EA00EA563B /* SceneDelegate.swift in Sources */,
+				DEED38342A91622600EA563B /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
